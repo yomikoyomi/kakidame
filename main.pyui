@@ -1,0 +1,99 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {320, 320}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{82, 241}, {73, 56}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "send_kakidame",
+          "flex" : "LRT",
+          "image_name" : "iob:chatbubble_working_256",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.137931,0.437781,1.000000,1.000000)",
+          "title" : "カキダメる",
+          "uuid" : "92028E92-85E2-4EF8-9A79-D1ABE6CC1E78",
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 74}, {308, 159}}",
+        "class" : "TextView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "522DEBD4-BCCD-4476-8793-AC1FE96F21D2",
+          "flex" : "HLRB",
+          "corner_radius" : 2,
+          "frame" : "{{106, 215}, {200, 200}}",
+          "border_color" : "RGBA(0.767296,0.767296,0.767296,1.000000)",
+          "editable" : true,
+          "border_width" : 2,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "textview1",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 17}, {308, 49}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LRB",
+          "font_name" : "<System>",
+          "frame" : "{{131, 299}, {150, 32}}",
+          "uuid" : "9911DE8B-8D81-466A-8B6B-4B58A411DE1E",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "カキダメ",
+          "name" : "label1",
+          "font_size" : 30
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{163, 241}, {93, 54}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LRT",
+          "action" : "clear_text",
+          "image_name" : "iob:trash_b_256",
+          "frame" : "{{120, 144}, {80, 32}}",
+          "title" : "Button",
+          "uuid" : "A3DB18BA-4022-47BB-B230-7BDEBBB96AE9",
+          "class" : "Button",
+          "font_size" : 15,
+          "name" : "button2"
+        }
+      }
+    ],
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "カキダメ",
+      "flex" : ""
+    }
+  }
+]
