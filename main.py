@@ -9,8 +9,9 @@ def send_kakidame(sender):
     send_text = v['textview1'].text
     # send_date = datetime.now().strftime('%Y/%m/%d %H:%M:%S')
     ggl = Google()
-    send_date = ggl.send(send_text)
-    console.alert(send_date)
+    send_date = ggl.send(ggl.oahth(), send_text)
+    # TODO: alertじゃなくてMsgBoxみたいなのがいい
+    console.alert('Send complete!', 'カキダメた', hide_cancel_button=True)
 
 def clear_text(sender):
     v = sender.superview
